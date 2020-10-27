@@ -5,7 +5,6 @@ variables:
 stages:
   - build
   - checking
-  - testing
 
 build-docker-container:
   stage: build

@@ -6,8 +6,6 @@
 <!-- badges: start -->
 
 [![pipeline-status](https://gitlab.harmonic.co.nz/harmonic/packages/db-geonz/badges/master/pipeline.svg)](https://gitlab.harmonic.co.nz/harmonic/packages/db-geonz/pipelines)
-[![coverage
-report](https://gitlab.harmonic.co.nz/harmonic/packages/db-geonz/badges/master/coverage.svg)](https://gitlab.harmonic.co.nz/harmonic/packages/db-geonz/commits/master)
 
 <!-- badges: end -->
 
