@@ -28,13 +28,3 @@ package-check:
     - cd $PACKAGE_DIR
     - R -e 'devtools::check()'
 
-coverage:
-  stage: testing
-  tags:
-      - docker
-  image: $IMAGE_TAG
-  variables:
-    GIT_STRATEGY: none
-  script:
-    - cd $PACKAGE_DIR
-    - R -e 'covr::package_coverage(type = c("tests", "examples"), quiet = FALSE)'

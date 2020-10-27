@@ -1,4 +1,4 @@
 library(testthat)
-library(geonz)
+library(db.geonz)
 
-test_check("geonz")
+test_check("db.geonz")

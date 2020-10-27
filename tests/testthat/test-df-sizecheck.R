@@ -1,0 +1,13 @@
+test_that("All data areas present", {
+  expect_equal(nrow(rc_geoms_2018), 17)
+  expect_equal(nrow(ta_geoms_2018), 68)
+  expect_equal(nrow(ward_geoms_2018), 245)
+  expect_equal(nrow(sa2_geoms_2018), 2253)
+  expect_equal(nrow(sa1_geoms_2018), 29889)
+  expect_equal(nrow(rc_geoms_2018_clipped), 17)
+  expect_equal(nrow(ta_geoms_2018_clipped), 68)
+  expect_equal(nrow(ward_geoms_2018_clipped), 245)
+  expect_equal(nrow(sa2_geoms_2018_clipped), 2171)
+  expect_equal(nrow(sa1_geoms_2018_clipped), 29688)
+  expect_equal(nrow(area_hierarchy_2018), 29889)
+})
