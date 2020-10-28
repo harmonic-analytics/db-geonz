@@ -6,7 +6,7 @@
 <!-- badges: start -->
 
 [![Travis build
-status](https://travis-ci.com/harmonic-analytics/db-geonz.svg?branch=master)](https://travis-ci.com/harmonic-analytics/db-geonz)
+status](https://travis-ci.org/harmonic-analytics/db-geonz.svg?branch=master)](https://travis-ci.org/harmonic-analytics/db-geonz)
 <!-- badges: end -->
 
 ## Overview
