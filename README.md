@@ -1,12 +1,12 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# db.geonz <a href='https://gitlab.harmonic.co.nz/harmonic/databases/db-geonz'><img src = 'inst/figures/hex-geonz.png' align='right' height='139' /></a>
+# db.geonz <a href='https://github.com/harmonic-analytics/db-geonz'><img src = 'inst/figures/hex-geonz.png' align='right' height='139' /></a>
 
 <!-- badges: start -->
 
-[![pipeline-status](https://gitlab.harmonic.co.nz/harmonic/databases/db-geonz/badges/master/pipeline.svg)](https://gitlab.harmonic.co.nz/harmonic/databases/db-geonz/pipelines)
-
+[![Travis build
+status](https://travis-ci.com/harmonic-analytics/db-geonz.svg?branch=master)](https://travis-ci.com/harmonic-analytics/db-geonz)
 <!-- badges: end -->
 
 ## Overview
@@ -25,18 +25,10 @@ This package is designed to be used with the **geonz** package.
 
 ## Installation
 
-To install this package from gitlab, you must first generate a Personal
-Access Token; the package can then be installed using the `remotes`
-package:
+The package can then be installed using the `remotes` package:
 
 ``` r
-remotes::install_gitlab(repo = 'harmonic/databases/db-geonz', auth_token = <PAT>, host = 'gitlab.harmonic.co.nz/')
-```
-
-Alternatively the `utilic` package can be used:
-
-``` r
-utilic::install_harmonic('harmonic/databases/db-geonz')
+remotes::install_github(repo = 'harmonic-analytics/db-geonz')
 ```
 
 In future, this package will be installed automatically when the
