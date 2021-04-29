@@ -1,5 +1,10 @@
-^geonz\.Rproj$
+^db-geonz\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
 Dockerfile
 .dockerignore
+^\.gitlab-ci\.yml$
+^data-raw$
+^README\.Rmd$
+^\.travis\.yml$
+^\.github$
